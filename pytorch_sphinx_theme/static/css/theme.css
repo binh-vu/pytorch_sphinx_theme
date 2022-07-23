@@ -11594,7 +11594,8 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 
 .pytorch-content-left {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   margin-top: 2.5rem;
   width: 100%;
 }
