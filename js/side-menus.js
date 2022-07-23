@@ -150,13 +150,13 @@ window.sideMenus = {
     var windowHeight = utilities.windowHeight();
     var topOfFooterRelativeToWindow = document.getElementById("docs-tutorials-resources").getBoundingClientRect().top;
 
-    if (topOfFooterRelativeToWindow >= windowHeight) {
+    // if (topOfFooterRelativeToWindow >= windowHeight) {
       document.getElementById("pytorch-left-menu").style.height = "100%";
-    } else {
-      var howManyPixelsOfTheFooterAreInTheWindow = windowHeight - topOfFooterRelativeToWindow;
-      var leftMenuDifference = howManyPixelsOfTheFooterAreInTheWindow;
-      document.getElementById("pytorch-left-menu").style.height = (windowHeight - leftMenuDifference) + "px";
-    }
+    // } else {
+    //   var howManyPixelsOfTheFooterAreInTheWindow = windowHeight - topOfFooterRelativeToWindow;
+    //   var leftMenuDifference = howManyPixelsOfTheFooterAreInTheWindow;
+    //   document.getElementById("pytorch-left-menu").style.height = (windowHeight - leftMenuDifference) + "px";
+    // }
   },
 
   handleRightMenu: function() {

@@ -97,7 +97,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 
-<div class="container-fluid header-holder tutorials-header" id="header-holder">
+
+
+<div class="container-fluid header-holder tutorials-header" id="header-holder" style="display: none">
+  <!-- Begin Navigator (Ignored ) --
   <div class="container">
     <div class="header-container">
       <a class="header-logo" href="{{ theme_variables.external_urls['home'] }}" aria-label="PyTorch"></a>
@@ -208,7 +211,10 @@
       <a class="main-menu-open-button" href="#" data-behavior="open-mobile-menu"></a>
     </div>
   </div>
+  <!-- End Navigator -->
 </div>
+
+
 
 <body class="pytorch-body">
 
@@ -380,7 +386,8 @@
 
   <!-- Begin Footer -->
 
-  <div class="container-fluid docs-tutorials-resources" id="docs-tutorials-resources">
+  <div class="container-fluid docs-tutorials-resources" id="docs-tutorials-resources" style="padding: 0">
+    <!-- Sub Footer (Ignored) --
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center">
@@ -402,10 +409,13 @@
         </div>
       </div>
     </div>
+    <!-- Sub Footer (Ignored) -->
   </div>
 
-  <footer class="site-footer">
+  
+  <footer class="site-footer" style="padding: 0">
     <div class="container footer-container">
+      <!-- Site Footer (Ignored ) --
       <div class="footer-logo-wrapper">
         <a href="{{ theme_variables.external_urls['home'] }}" class="footer-logo"></a>
       </div>
@@ -445,14 +455,16 @@
           </div>
         </div>
       </div>
+      <!-- Site Footer (Ignored ) -->
     </div>
+    
   </footer>
 
-  {% include "cookie_banner.html" %}
+  <!-- {% include "cookie_banner.html" %} -->
 
   <!-- End Footer -->
 
-  <!-- Begin Mobile Menu -->
+  <!-- Begin Mobile Menu (Ignored) --
 
   <div class="mobile-main-menu">
     <div class="container-fluid">
